@@ -1,4 +1,4 @@
-package com.example.myapplication.Fragment
+package com.example.myapplication.ui
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -6,23 +6,16 @@ import android.content.DialogInterface
 import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
-import android.view.MenuItem
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Button
 import android.widget.Switch
-import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.cardview.widget.CardView
-import androidx.core.view.GravityCompat
-import androidx.drawerlayout.widget.DrawerLayout
 import androidx.fragment.app.Fragment
 import com.example.myapplication.R
-import com.example.myapplication.SecondActivity
-import com.example.myapplication.ThirdAcitivity
-import com.example.myapplication.Thong_tin
-import kotlinx.android.synthetic.main.fragment_settings.*
+import com.example.myapplication.ui.fragment.settings.ThirdAcitivity
+import com.example.myapplication.ui.fragment.settings.Thong_tin
 
 @Suppress("UNREACHABLE_CODE")
 class SettingsFragment : Fragment() {

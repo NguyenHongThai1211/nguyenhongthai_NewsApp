@@ -1,9 +1,8 @@
-package com.example.myapplication
+package com.example.myapplication.ui
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.Fragment
-import com.example.myapplication.Fragment.HomeFragment
-import com.example.myapplication.Fragment.SettingsFragment
+import com.example.myapplication.R
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class MainActivity : AppCompatActivity() {

@@ -17,10 +17,10 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
-            android:name=".Thong_tin"
+            android:name=".ui.fragment.settings.Thong_tin"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -30,10 +30,10 @@
         </activity>
 
         <activity
-            android:name=".SecondActivity"
+            android:name=".ui.SecondActivity"
             android:exported="true" />
         <activity
-            android:name=".ThirdAcitivity"
+            android:name=".ui.fragment.settings.ThirdAcitivity"
             android:exported="true" />
     </application>
 

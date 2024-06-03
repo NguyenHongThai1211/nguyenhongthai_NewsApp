@@ -1,4 +1,4 @@
-package com.example.myapplication.FragmentDetails
+package com.example.myapplication.ui.adapter
 
 import android.content.Intent
 import android.view.LayoutInflater
@@ -11,9 +11,9 @@ import android.widget.Toast
 import androidx.cardview.widget.CardView
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.recyclerview.widget.RecyclerView
-import com.example.myapplication.News
 import com.example.myapplication.R
-import com.example.myapplication.SecondActivity
+import com.example.myapplication.ui.SecondActivity
+import com.example.myapplication.data.News
 
 class RecAadapter(private val newsList : ArrayList<News>) : RecyclerView.Adapter<RecAadapter.ViewHolder>() {
 
@@ -57,7 +57,9 @@ class RecAadapter(private val newsList : ArrayList<News>) : RecyclerView.Adapter
         })
 
 
-        holder.cardView.startAnimation(AnimationUtils.loadAnimation(holder.cardView.context, R.anim.scale_up))
+        holder.cardView.startAnimation(AnimationUtils.loadAnimation(holder.cardView.context,
+            R.anim.scale_up
+        ))
 
     }
 
