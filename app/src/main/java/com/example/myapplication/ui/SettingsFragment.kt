@@ -56,11 +56,11 @@ class SettingsFragment : Fragment() {
             dialog.apply{
                 setTitle("Thông báo")
                 setMessage("Thoát không?")
-                setNegativeButton("no"){ dialogInterface: DialogInterface, i: Int ->
-                    dialogInterface.dismiss()
-                }
                 setPositiveButton("yes"){dialogInterface: DialogInterface,i: Int ->
                     activity?.finish()
+                }
+                setNegativeButton("no"){ dialogInterface: DialogInterface, i: Int ->
+                    dialogInterface.dismiss()
                 }
             }
             dialog.show()

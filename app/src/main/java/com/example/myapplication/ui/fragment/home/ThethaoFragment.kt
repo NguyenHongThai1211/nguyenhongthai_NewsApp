@@ -167,8 +167,8 @@ class ThethaoFragment : Fragment() {
     private fun getData() {
 
         for (i in imageId.indices) {
-            val pizza = News(imageId[i], names[i], ingredients[i])
-            itemArrayList.add(pizza)
+            val new = News(imageId[i], names[i], ingredients[i])
+            itemArrayList.add(new)
         }
     }
 }
