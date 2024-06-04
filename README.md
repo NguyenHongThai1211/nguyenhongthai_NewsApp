@@ -1,7 +1,7 @@
 ﻿# nguyenhongthai_NewsApp
 App News is a news reading app, the news is aggregated, selected, and brings the latest and fastest news to everyone. The app is written in the Kotlin language, applying the MVVM Architecture model to separate the application logic into separate parts. Kotlin Coroutine is used to handle asynchronous network calls. Recyclerview is used to display a list of articles by field in the interface, each article will be displayed in detail through secondactivity.xml. In addition, users can change the light/dark mode of the application in the settings section, and can know some information about the author such as: Email, phone number.
 
-Kết quả ứng dụng:
+Result of the application:
 
 • Home
 
